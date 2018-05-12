@@ -17,4 +17,8 @@ class Format
 	public static function index(){
 		return 1;
 	}
+
+	public static function commaSeprate($number = ""){
+		
+	}
 }
