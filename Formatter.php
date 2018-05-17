@@ -21,4 +21,12 @@ class Format
 	public static function commaSeprate($number = ""){
 		
 	}
+
+	public static function mask($string = "", $mask = ""){
+		$pattern = array();
+		$replacement = array();
+		
+		$string_mask = preg_replace($pattern, $replacement, $string);
+		return $string_mask;
+	}
 }
